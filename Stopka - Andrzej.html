@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- Wsparcie trybu jasnego/ciemnego dla klientów pocztowych -->
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+<style type="text/css">
+  /* Adaptacyjne style dla trybu ciemnego i responsywności */
+  @media (prefers-color-scheme: dark) {
+    /* W trybie ciemnym zmień kolor tekstu na biały dla lepszej czytelności */
+    .dark-text { color: #FFFFFF !important; }
+    a.dark-text { color: #FFFFFF !important; }
+    .dark-text-rodo { color: #CCCCCC !important; }
+    
+    /* Ustawiamy tło głównego kontenera na przezroczyste w dark mode */
+    .dark-bg-transparent { background-color: transparent !important; }
+  }
+</style>
+<!-- Import fontów -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Montserrat&display=swap" rel="stylesheet">
+<!--[if gte mso 9]>
+<xml>
+  <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+  </o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+</head>
+<body style="margin:0; padding:0;">
+<!--[if mso]>
+<!-- Specjalnie dla Outlook: białe tło stopki (Outlook pomija tryb ciemny) -->
+<table role="presentation" width="100%" bgcolor="#FFFFFF" style="background-color:#FFFFFF;" cellpadding="0" cellspacing="0" border="0">
+  <tr><td>
+<![endif]-->
+
+<!-- Główna tabela kontenerowa stopki -->
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" style="font-family: Montserrat, Arial, sans-serif; max-width: 350px;" class="dark-bg-transparent">
+  <!-- Sekcja z danymi osobowymi -->
+  <tr>
+    <td style="padding-bottom: 16px;">
+      <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+        <!-- Imię i nazwisko -->
+        <tr>
+          <td class="dark-text" style="padding-bottom: 8px; font-family: 'Cormorant SC', Georgia, serif; font-size: 18px; color: #000000; font-weight: 500; letter-spacing: 4px; text-transform: uppercase; line-height: 1.5;">
+            Andrzej Bałdyga
+          </td>
+        </tr>
+        <!-- Stanowisko -->
+        <tr>
+          <td class="dark-text" style="padding-bottom: 2px; font-family: 'Montserrat', Arial, sans-serif; font-size: 12px; color: #000000; line-height: 1.2;">
+            GENERAL MANAGER
+          </td>
+        </tr>
+        <!-- Telefon -->
+        <tr>
+          <td style="padding-bottom: 2px; font-family: 'Montserrat', Arial, sans-serif; font-size: 12px; line-height: 1.2;">
+            <a href="tel:+48533381402" class="dark-text" style="color: #000000; text-decoration: none;">+48 533 381 402</a>
+          </td>
+        </tr>
+        <!-- E-mail -->
+        <tr>
+          <td style="font-family: 'Montserrat', Arial, sans-serif; font-size: 12px; line-height: 1.2;">
+            <a href="mailto:andrzej.baldyga@thesea.pl" class="dark-text" style="color: #000000; text-decoration: none;">andrzej.baldyga@thesea.pl</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  
+  <!-- ZMIANA: Prosty obraz zastępujący tabelę z tłem -->
+  <tr>
+    <td>
+      <a href="https://thesea.pl" target="_blank" style="text-decoration: none; border: 0;">
+        <img src="https://github.com/fmalczynski/The-Sea/blob/main/mail-bg-2.jpg?raw=true" width="350" alt="The Sea" style="display: block; width: 100%; max-width: 350px; height: auto; border: 0;">
+      </a>
+    </td>
+  </tr>
+  
+  <!-- Nazwa i adres pod obrazkiem -->
+  <tr>
+    <td style="padding-top: 10px; color: #000000; font-family: 'Cormorant SC', Georgia, serif; font-size: 11px; font-weight: 500; line-height: 1.5; letter-spacing: 2px;" class="dark-text">
+      THE&nbsp;SEA&nbsp;Międzyzdroje,<br>Promenada&nbsp;gwiazd&nbsp;15,&nbsp;72&#8209;500&nbsp;Międzyzdroje
+    </td>
+  </tr>
+
+  <!-- Klauzula RODO -->
+  <tr>
+    <td class="dark-text-rodo" style="padding-top: 10px; font-family: 'Montserrat', Arial, sans-serif; font-size: 9px; line-height: 1.4; color: #b4b4b4; text-align: justify;">
+      Zgodnie z art. 13 ust.1 i ust.2, art.14 i art.15 rozporządzenia Parlamentu Europejskiego i Rady (UE) z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (dalej ogólne rozporządzenie o ochronie danych lub „RODO”), informujemy, że: administratorem Pana/Pani danych osobowych jest: The Sea Resort Operator spółka z ograniczoną odpowiedzialnością z siedzibą w Warszawie, (adres: ul. Stanisława Moniuszki 1A, 00-014 Warszawa), wpisaną do Rejestru Przedsiębiorców Krajowego Rejestru Sądowego przez Sąd Rejonowy dla m. st. Warszawy w Warszawie, XII Wydział Gospodarczy Krajowego Rejestru Sądowego pod numerem 0001063399, NIP 5252976269, REGON 526666269
+    </td>
+  </tr>
+</table>
+
+<!--[if mso]></td></tr></table><![endif]-->
+</body>
+</html>
